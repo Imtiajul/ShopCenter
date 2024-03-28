@@ -3,9 +3,15 @@ import Link from "next/link"
 
 const Logo = () => {
   return (
-    <div>
-      
-    </div>
+    <Link href="/" aria-label="Home">
+      <Image
+        src="/lws-logo-black.svg"
+        className="h-10"
+        alt="logo"
+        width={120}
+        height={40}
+      />
+    </Link>
   )
 }
 
